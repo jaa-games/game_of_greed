@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "game-of-greed"
+version = "0.1.0"
+description = ""
+authors = ["Jad Abu Awwad <jadabuawwad@outlook.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^21.9b0", allow-prereleases = true}
+flake8 = {version = "^4.0.1", allow-prereleases = true}
+jupyterlab = {version = "^3.2.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
